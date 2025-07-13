@@ -1,0 +1,56 @@
+﻿syntax = "proto3";
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";	
+option csharp_namespace = "Service2";
+
+package Server1;
+
+service SayHello{
+	rpc GetHelloMessage (Detail) returns (ResponseMessage);
+	rpc GetInfo(Detail) returns (Information);
+	rpc GetStudents(google.protobuf.Empty) returns (Students);
+	rpc GetMarks(google.protobuf.Empty) returns (Marks);
+}
+
+message Detail{
+	string Name = 1;
+}
+
+message ResponseMessage{
+	string Message = 1;
+}
+
+message Information {
+  string Name = 1;
+  int32 Age = 2;
+  int32 Rollno = 3;
+  Department department = 4;
+  google.protobuf.Timestamp start_time = 5; // for  date and time
+  string event_date = 6; // year, month, day - date only
+  string time = 7; // "15:30:00" // time only
+}
+
+enum Department {
+  DEPARTMENT_UNSPECIFIED = 0; // ✅ required default
+  ECE = 1;
+  EEE = 2;
+  IT = 3;
+  CSE = 4;
+}
+
+message Student{
+	string Name =1;
+	Department Department = 2;
+}
+
+message Students{
+	repeated Student Students = 1; // list of values
+}
+
+message Mark{ // Key value pair
+	map<string,int32> mark = 1;
+}
+
+message Marks{ // List of key Value pair
+	repeated Mark marks = 1;
+}
