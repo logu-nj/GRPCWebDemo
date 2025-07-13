@@ -38,3 +38,4 @@ E:\Logu\GRPCWebDemo\Service2\obj\Debug\net8.0\refint\Service2.dll
 E:\Logu\GRPCWebDemo\Service2\obj\Debug\net8.0\Service2.pdb
 E:\Logu\GRPCWebDemo\Service2\obj\Debug\net8.0\Service2.genruntimeconfig.cache
 E:\Logu\GRPCWebDemo\Service2\obj\Debug\net8.0\ref\Service2.dll
+E:\Logu\GRPCWebDemo\Service2\obj\Debug\net8.0\Service2.sourcelink.json

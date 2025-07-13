@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Threading.Tasks;
+using Grpc.Core;
+using Microsoft.AspNetCore.Mvc;
 using Service2.GRPCApps;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -43,6 +45,17 @@ namespace Service2.Controllers
         {
             return grpcClient.client.GetMarks(new Google.Protobuf.WellKnownTypes.Empty());
         }
-
+        [HttpGet("[Action]")]
+        public async Task<string> GetStreams([FromQuery] StreamerInput inputs)
+        {
+            using (var res = grpcClient.client.GetStreamer(inputs))
+            {
+                await foreach (var stream in res.ResponseStream.ReadAllAsync())
+                {
+                    Console.WriteLine(stream);
+                }
+            }
+            return "Streaming is loged in console";
+        }
     }
 }

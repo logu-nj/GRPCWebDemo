@@ -57,6 +57,10 @@ namespace Service2 {
     static readonly grpc::Marshaller<global::Service2.Students> __Marshaller_Server1_Students = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Service2.Students.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Service2.Marks> __Marshaller_Server1_Marks = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Service2.Marks.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Service2.StreamerInput> __Marshaller_Server1_StreamerInput = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Service2.StreamerInput.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Service2.StreamerRes> __Marshaller_Server1_StreamerRes = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Service2.StreamerRes.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Service2.Detail, global::Service2.ResponseMessage> __Method_GetHelloMessage = new grpc::Method<global::Service2.Detail, global::Service2.ResponseMessage>(
@@ -89,6 +93,14 @@ namespace Service2 {
         "GetMarks",
         __Marshaller_google_protobuf_Empty,
         __Marshaller_Server1_Marks);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Service2.StreamerInput, global::Service2.StreamerRes> __Method_GetStreamer = new grpc::Method<global::Service2.StreamerInput, global::Service2.StreamerRes>(
+        grpc::MethodType.ServerStreaming,
+        __ServiceName,
+        "GetStreamer",
+        __Marshaller_Server1_StreamerInput,
+        __Marshaller_Server1_StreamerRes);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -202,6 +214,16 @@ namespace Service2 {
       public virtual grpc::AsyncUnaryCall<global::Service2.Marks> GetMarksAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetMarks, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncServerStreamingCall<global::Service2.StreamerRes> GetStreamer(global::Service2.StreamerInput request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetStreamer(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncServerStreamingCall<global::Service2.StreamerRes> GetStreamer(global::Service2.StreamerInput request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncServerStreamingCall(__Method_GetStreamer, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|solutionrelative:service2\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|e:\\logu\\grpcwebdemo\\service2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|solutionrelative:service2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|e:\\logu\\grpcwebdemo\\service2\\grpcapps\\grpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|solutionrelative:service2\\grpcapps\\grpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|e:\\logu\\grpcwebdemo\\service2\\protos\\grpcservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|solutionrelative:service2\\protos\\grpcservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -23,8 +15,20 @@
       "RelativeMoniker": "D:0:0:{84A27793-3F9D-4CFE-B488-96EAD3692C14}|Service1\\Service1.csproj|solutionrelative:service1\\protos\\grpcservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|e:\\logu\\grpcwebdemo\\service2\\grpcapps\\grpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|solutionrelative:service2\\grpcapps\\grpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84A27793-3F9D-4CFE-B488-96EAD3692C14}|Service1\\Service1.csproj|e:\\logu\\grpcwebdemo\\service1\\grpcapps\\grpcserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84A27793-3F9D-4CFE-B488-96EAD3692C14}|Service1\\Service1.csproj|solutionrelative:service1\\grpcapps\\grpcserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A27793-3F9D-4CFE-B488-96EAD3692C14}|Service1\\Service1.csproj|e:\\logu\\grpcwebdemo\\service1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A27793-3F9D-4CFE-B488-96EAD3692C14}|Service1\\Service1.csproj|solutionrelative:service1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|e:\\logu\\grpcwebdemo\\service2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA82E598-DA92-4D37-AEB2-AE07AF00A4AB}|Service2\\Service2.csproj|solutionrelative:service2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84A27793-3F9D-4CFE-B488-96EAD3692C14}|Service1\\Service1.csproj|e:\\logu\\grpcwebdemo\\service1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Logu\\GRPCWebDemo\\Service2\\obj\\Debug\\net8.0\\Protos\\GRPCServiceGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Service2\\obj\\Debug\\net8.0\\Protos\\GRPCServiceGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84A27793-3F9D-4CFE-B488-96EAD3692C14}|Service1\\Service1.csproj|e:\\logu\\grpcwebdemo\\service1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84A27793-3F9D-4CFE-B488-96EAD3692C14}|Service1\\Service1.csproj|solutionrelative:service1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Logu\\GRPCWebDemo\\Service2\\Program.cs",
               "RelativeDocumentMoniker": "Service2\\Program.cs",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "Service2\\Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T15:31:41.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T15:31:41.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GRPCClient.cs",
               "DocumentMoniker": "E:\\Logu\\GRPCWebDemo\\Service2\\GRPCApps\\GRPCClient.cs",
               "RelativeDocumentMoniker": "Service2\\GRPCApps\\GRPCClient.cs",
@@ -88,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "E:\\Logu\\GRPCWebDemo\\Service1\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "Service1\\Controllers\\ValuesController.cs",
@@ -96,12 +95,11 @@
               "RelativeToolTip": "Service1\\Controllers\\ValuesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T12:32:14.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T12:32:14.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GRPCServiceGrpc.cs",
               "DocumentMoniker": "E:\\Logu\\GRPCWebDemo\\Service2\\obj\\Debug\\net8.0\\Protos\\GRPCServiceGrpc.cs",
               "RelativeDocumentMoniker": "Service2\\obj\\Debug\\net8.0\\Protos\\GRPCServiceGrpc.cs",
@@ -113,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GRPCServiceGrpc.cs",
               "DocumentMoniker": "E:\\Logu\\GRPCWebDemo\\Service1\\obj\\Debug\\net8.0\\Protos\\GRPCServiceGrpc.cs",
               "RelativeDocumentMoniker": "Service1\\obj\\Debug\\net8.0\\Protos\\GRPCServiceGrpc.cs",
@@ -131,61 +129,62 @@
               "RelativeDocumentMoniker": "Service2\\Controllers\\DemoController.cs",
               "ToolTip": "E:\\Logu\\GRPCWebDemo\\Service2\\Controllers\\DemoController.cs",
               "RelativeToolTip": "Service2\\Controllers\\DemoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T11:05:23.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "GRPCServer.cs",
               "DocumentMoniker": "E:\\Logu\\GRPCWebDemo\\Service1\\GRPCApps\\GRPCServer.cs",
               "RelativeDocumentMoniker": "Service1\\GRPCApps\\GRPCServer.cs",
               "ToolTip": "E:\\Logu\\GRPCWebDemo\\Service1\\GRPCApps\\GRPCServer.cs",
               "RelativeToolTip": "Service1\\GRPCApps\\GRPCServer.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwEMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T11:03:29.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "GRPCService.proto",
               "DocumentMoniker": "E:\\Logu\\GRPCWebDemo\\Service1\\Protos\\GRPCService.proto",
               "RelativeDocumentMoniker": "Service1\\Protos\\GRPCService.proto",
               "ToolTip": "E:\\Logu\\GRPCWebDemo\\Service1\\Protos\\GRPCService.proto",
               "RelativeToolTip": "Service1\\Protos\\GRPCService.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
               "WhenOpened": "2025-07-13T10:59:55.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GRPCService.proto",
               "DocumentMoniker": "E:\\Logu\\GRPCWebDemo\\Service2\\Protos\\GRPCService.proto",
               "RelativeDocumentMoniker": "Service2\\Protos\\GRPCService.proto",
               "ToolTip": "E:\\Logu\\GRPCWebDemo\\Service2\\Protos\\GRPCService.proto",
               "RelativeToolTip": "Service2\\Protos\\GRPCService.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
               "WhenOpened": "2025-07-13T10:56:27.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Logu\\GRPCWebDemo\\Service1\\Program.cs",
               "RelativeDocumentMoniker": "Service1\\Program.cs",
               "ToolTip": "E:\\Logu\\GRPCWebDemo\\Service1\\Program.cs",
               "RelativeToolTip": "Service1\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T10:49:28.887Z"
+              "WhenOpened": "2025-07-13T10:49:28.887Z",
+              "EditorCaption": ""
             }
           ]
         }

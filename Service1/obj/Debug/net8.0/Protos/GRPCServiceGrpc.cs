@@ -57,6 +57,10 @@ namespace Service1 {
     static readonly grpc::Marshaller<global::Service1.Students> __Marshaller_Server1_Students = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Service1.Students.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Service1.Marks> __Marshaller_Server1_Marks = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Service1.Marks.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Service1.StreamerInput> __Marshaller_Server1_StreamerInput = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Service1.StreamerInput.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Service1.StreamerRes> __Marshaller_Server1_StreamerRes = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Service1.StreamerRes.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Service1.Detail, global::Service1.ResponseMessage> __Method_GetHelloMessage = new grpc::Method<global::Service1.Detail, global::Service1.ResponseMessage>(
@@ -89,6 +93,14 @@ namespace Service1 {
         "GetMarks",
         __Marshaller_google_protobuf_Empty,
         __Marshaller_Server1_Marks);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Service1.StreamerInput, global::Service1.StreamerRes> __Method_GetStreamer = new grpc::Method<global::Service1.StreamerInput, global::Service1.StreamerRes>(
+        grpc::MethodType.ServerStreaming,
+        __ServiceName,
+        "GetStreamer",
+        __Marshaller_Server1_StreamerInput,
+        __Marshaller_Server1_StreamerRes);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -124,6 +136,12 @@ namespace Service1 {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task GetStreamer(global::Service1.StreamerInput request, grpc::IServerStreamWriter<global::Service1.StreamerRes> responseStream, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -135,7 +153,8 @@ namespace Service1 {
           .AddMethod(__Method_GetHelloMessage, serviceImpl.GetHelloMessage)
           .AddMethod(__Method_GetInfo, serviceImpl.GetInfo)
           .AddMethod(__Method_GetStudents, serviceImpl.GetStudents)
-          .AddMethod(__Method_GetMarks, serviceImpl.GetMarks).Build();
+          .AddMethod(__Method_GetMarks, serviceImpl.GetMarks)
+          .AddMethod(__Method_GetStreamer, serviceImpl.GetStreamer).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -149,6 +168,7 @@ namespace Service1 {
       serviceBinder.AddMethod(__Method_GetInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Service1.Detail, global::Service1.Information>(serviceImpl.GetInfo));
       serviceBinder.AddMethod(__Method_GetStudents, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Service1.Students>(serviceImpl.GetStudents));
       serviceBinder.AddMethod(__Method_GetMarks, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Service1.Marks>(serviceImpl.GetMarks));
+      serviceBinder.AddMethod(__Method_GetStreamer, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::Service1.StreamerInput, global::Service1.StreamerRes>(serviceImpl.GetStreamer));
     }
 
   }

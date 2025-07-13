@@ -66,5 +66,13 @@ namespace Service1.GRPCApps
             }
             return Task.FromResult(markList);
         }
+        public override async Task GetStreamer(StreamerInput request, IServerStreamWriter<StreamerRes> responseStream, ServerCallContext context)
+        {
+            for (int i = request.Start; i <= request.End; i++)
+            {
+                await responseStream.WriteAsync(new StreamerRes { Number = i });
+                await Task.Delay(request.Delay);
+            }
+        }
     }
 }

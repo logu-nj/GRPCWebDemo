@@ -47,6 +47,42 @@
   },
   {
     "ContainingType": "Service2.Controllers.DemoController",
+    "Method": "GetStreams",
+    "RelativePath": "api/Demo/GetStreams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Start",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "End",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Delay",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Service2.Controllers.DemoController",
     "Method": "GetStudents",
     "RelativePath": "api/Demo/GetStudents",
     "HttpMethod": "GET",

@@ -10,6 +10,7 @@ service SayHello{
 	rpc GetInfo(Detail) returns (Information);
 	rpc GetStudents(google.protobuf.Empty) returns (Students);
 	rpc GetMarks(google.protobuf.Empty) returns (Marks);
+	rpc GetStreamer(StreamerInput) returns (stream StreamerRes);
 }
 
 message Detail{
@@ -53,4 +54,14 @@ message Mark{ // Key value pair
 
 message Marks{ // List of key Value pair
 	repeated Mark marks = 1;
+}
+
+message StreamerRes{
+	int32 number = 1;
+}
+
+message StreamerInput{
+	int32 start = 1;
+	int32 end = 2;
+	int32 delay = 3;
 }
